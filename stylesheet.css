@@ -1,0 +1,84 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	padding-left: 20px;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	width: 100%;
+	border-bottom: 1px solid #e2e2e2;
+	height: 40px;
+	box-shadow:-1px 0 4px 0 #e2e2e2;
+	background-color: #ffffff;
+}
+
+ul li {
+	display: inline-block;
+	margin: 0;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	font-style: normal;
+	font-size: 0.6875rem;
+	color: #333;
+	font-weight: 700;
+}
+
+.left li{
+	float: left;
+	clear: right;
+	padding: 0 15px;
+}
+
+.right li{
+	float: right;
+	padding: 0 15px;
+}
+
+img.logo {
+	padding: 0;
+	margin: 0;
+}
+
+.content {
+	position: relative;
+	width: 100%;
+	padding-top: 47px;
+	box-shadow:-1px 0 4px 0 #e2e2e2;
+	padding-left: 40px;
+
+}
+
+.center {
+	text-align: center;
+}
+
+.content {
+	position: relative;
+	width: 960px;
+}
+
+
+
+figure {
+	margin: 0;
+}
+
+.container {
+	position: relative;
+	width: 500px;
+	float: left;
+	clear: right;
+}
+
+.aside {
+	position: relative
+	width: 360px;
+}
+
+.comment-text {
+	font-size: 0.8125rem;
+}
