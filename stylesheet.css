@@ -1,20 +1,25 @@
 body {
 	width: 1000px;
-	margin: 0 auto;
-	padding-left: 25px;
-	margin-left: 0;
+	margin: 0;
 }
 
 nav {
 	position: fixed;
 	top: 0;
-	left: 0px;
+	left: 0;
 	right: 0;
 	z-index: 999;
 	width: 100%;
 	border-bottom: 1px solid #e2e2e2;
 	height: 40px;
 	background-color: #ffffff;
+}
+
+nav li a {
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	color: #333;
+	font-weight: 700;
+	text-decoration: none;
 }
 
 .nav-buttons {
@@ -28,6 +33,15 @@ nav {
 	padding-left: -15px;
 }
 
+.button-box {
+	box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06), inset -1px -1px 1px 0 rgba(0,0,0,0.02);
+    border-bottom-color: #cecece;
+    padding: 7px 9px;
+    border: 1px solid #e2e2e2;
+    background-color: #fff;
+    color: #333;
+}
+
 .left li{
 	float: left;
 	clear: right;
@@ -36,12 +50,42 @@ nav {
 
 .right li{
 	float: right;
-	padding: 0 15px;
+	font-size: 9px;
+	font-weight: 700;
+	font-style: normal;
+	margin-right: 10px;
 }
 
-img.logo {
-	padding: 0;
-	margin: 0;
+.nav-logo {
+	margin-top: -11px;
+}
+
+.nav-right-article {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;font-weight: 400;
+    font-style: normal;
+}
+
+.button-nav-right {
+	background-color: #326891;
+    border: 1px solid #265E8B;
+    color: #fff;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	font-style: normal;
+	font-size: 10px;
+	border-radius: 3px;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 1em;
+    font-family: nyt-franklin, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding: 7px 10px 6px;
+    text-transform: none;
+    text-decoration: none;
+    margin-right: 13px;
+    margin-top: -9px !important;
 }
 
 .content {
@@ -64,7 +108,7 @@ figure {
 
 figcaption {
 	width: 525px;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 700px;
 }
 
@@ -76,7 +120,7 @@ figcaption {
 }
 
 .aside {
-	position: relative;
+	position: absolute;
 	float: left;
 	clear: right;
 	width: 360px;
@@ -96,21 +140,24 @@ figcaption {
 
 .text {
 	position: relative;
-	width: 500px;
+	width: 550px;
 	float: left;
 	clear: right;
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-top: 25px;
+	font-size: 16px;
+	line-height: 1.6;
 }
 
 .banner {
-    position: relative;
-    width: 100%;
-    top: 46px;
+	position: relative;
+    height: 60px;
     overflow: hidden;
+    top: 46px;
     box-shadow: 0 4px 4px rgba(0,0,0,0.06);
     border-bottom: 1px solid #ccc;
+    width: 15000px;
 }
 
 .left {
@@ -147,21 +194,23 @@ section {
 	position: relative;
 	width: 705px;
 	border-top: 1px solid #eeeeee;
-	margin-left: 50px;
+	margin-left: 110px;
 }
 
 .section-img {
 	display: inline-block;
-	width: 210px;
+	width: 170px;
+	margin-right: 27px;
 }
-.site-index 
-{
-	border-topx solid black;
+
+.site-index {
+	border-top: 1px solid black;
 	position: static;
 	width: 100%;
 	float: left;
 	clear: both;
 	margin-left: 50px;
+	margin-bottom: 35px;
 }
 
 .column {
@@ -171,6 +220,7 @@ section {
     float: left;
     clear: right;
     width: 165px;
+    color: #000000;
 }
 
 .column h3 {
@@ -183,6 +233,7 @@ section {
     letter-spacing: 0.05em;
     padding-top: 15px;
     padding-bottom: 15px;
+    color: #000000;
 }
 
 ul {
@@ -191,9 +242,75 @@ ul {
 
 .column ul li {
 	list-style-type: none;
+	padding-bottom: 3px;
 }
 
 .column ul li a {
 	text-decoration: none;
-	color: #666;
+	color: #000000;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.ny-logo {
+float: left;
+}
+
+.footer-list {
+	clear: left !important;
+}
+
+.label {
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+}
+
+h1 {
+	font-size: 28px;
+    line-height: 38px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+    font-style: italic;
+}
+
+.recent-comments {
+	font-size: 10px;
+    line-height: 15px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    color: #326891;
+}
+
+.bold {
+	font-weight: 900;
+	color: #000000;
+}
+
+footer {
+	position: relative;
+	clear: left;
+	margin-left: 50px;
+	border-top: 1px solid #999;
+}
+
+footer p {
+	font-family: Arial, "times new roman",times,serif !important;    
+	color: #999;
+    font-size: 10px;
+    line-height: 15px;
+    font-style: normal;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding: 0 4px;
+    line-height: 10px;
+}
+
+.footerpar {
+	position: absolute;
+	right: 0;
 }

@@ -7,7 +7,7 @@
 
 		<title>NYTimes | The Odin Project</title>
 
-		<link rel="stylesheet" type="text/css" href="stylesheet.css"
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 
 	</head>
 
@@ -19,9 +19,9 @@
 			<div class="left">
 				
 				<ul>
-					<li class="nav-buttons">SECTIONS</li>
-					<li class="nav-buttons">HOME</li>
-					<li class="nav-buttons">SEARCH</li>
+					<li class="nav-buttons"><a href="#"><span class="button-box">SECTIONS</span></a></li>
+					<li class="nav-buttons"><a href="#">HOME</a></li>
+					<li class="nav-buttons"><a href="#">SEARCH</a></li>
 				</ul>
 			
 			</div>
@@ -29,9 +29,9 @@
 			<div class="right">
 				
 				<ul>
-					<li class="nav-buttons">LOG IN</li>
-					<li class="nav-buttons">SUBSCRIBE NOW</li>
-					<li class="nav-buttons">1 of 10 articles read</li>
+					<li class="nav-buttons, button-nav-right">LOG IN</li>
+					<li class="nav-buttons, button-nav-right">SUBSCRIBE NOW</li>
+					<li class="nav-buttons"><span class="nav-right-article">1 of 10 articles read</span></li>
 
 				</ul>
 
@@ -39,7 +39,7 @@
 
 			<div class="center">
 
-				<img src="images/nytimes-logo.png" width="125" height="20">
+				<img src="images/nytimes-logo.png" width="160px" class="nav-logo">
 
 			</div>
 
@@ -67,13 +67,28 @@
 				<p class="thumb-text">SpaceX Launces Rocket, Its First Since Explosion on Launchpad</p>
 			</div>
 
+			<div class="thumb">
+				<img src="images/2.jpg" width="55" height="55" class="left">
+				<p class="thumb-text">SpaceX Launces Rocket, Its First Since Explosion on Launchpad</p>
+			</div>
+
+			<div class="thumb">
+				<img src="images/3.jpg" width="55" height="55" class="left">
+				<p class="thumb-text">SpaceX Launces Rocket, Its First Since Explosion on Launchpad</p>
+			</div>
+
+			<div class="thumb">
+				<img src="images/4.jpg" width="55" height="55" class="left">
+				<p class="thumb-text">SpaceX Launces Rocket, Its First Since Explosion on Launchpad</p>
+			</div>
+
 		</div><!-- end banner -->	
 
 		<div class="content">
 
 			<hr>
 
-			<h5>SPACE &amp; COSMOS</h5>
+			<h5><span class="label">SPACE &amp; COSMOS</span></h5>
 
 			<h1>Space Ripples Reveal Big Bang's Smoking Gun</h1>
 
@@ -133,31 +148,31 @@
 
 		<div class="aside, comment-text">
 
-			<p>RECENT COMMENTS</p>
+			<p class="recent-comments">RECENT COMMENTS</p>
 
 				<div>
-					<p>Rob March 20, 2014
+					<p><span class="bold">Rob</span> <span class="credit">March 20, 2014</span><br>
 					The spark before the big band ( they need a better scientific name than this one) so a spark in nothingness of a nothingness spark created a...</p>
 				</div>
 
 				<div>
-					<p>mptyler340 March 20, 2014
+					<p><span class="bold">mptyler340</span> <span class="credit">March 20, 2014</span><br>
 					The article states, "...the signature of a universe being wrenched violently apart when it was roughly a trillionth of a trillionth of a...</p>
 				</div>
 
 				<div>
-					<p>Southern Boy March 20, 2014
+					<p><span class="bold">Southern Boy</span> <span class="credit">March 20, 2014</span><br>
 					This type of "scientific" inquiry undermines the Bible and separates man further away from the Almighty God. Bible teaching must be first...</p>
 				</div>
 
 		</div><!-- end aside -->
 
 		<section>
-			<h5>More in Space &amp; Cosmos</h5>
+			<h5><span class="label">More in Space &amp; Cosmos</span></h5>
 
 				<div class="section-img">
 					<img src="images/section-img-1.jpg" width="170" height="110">
-					<p>SpaceX Launches Rocket, Its First Since Explosion on Launchpad</p>
+					<p>Venus Smiled, With a Mysterious Wave Across Its Atmosphere</p>
 				</div>
 
 				<div class="section-img">
@@ -208,9 +223,9 @@
 
 		<section class="site-index">
 
-			<img src="images/nytimes-logo.png">
+			<img src="images/nytimes-logo.png" class="ny-logo">
 
-			<div class="column">
+			<div class="column footer-list">
 				<h3>NEWS</h3>
 				<ul>
 					<li><a href="#">World</a></li>
@@ -233,88 +248,90 @@
 
 			<div class="column">
 
-			<h3>NEWS</h3>
+			<h3>OPINION</h3>
 				<ul>
-					<li><a href="#">World</a></li>
-					<li><a href="#">U.S</a></li>
-					<li><a href="#">Politics</a></li>
-					<li><a href="#">NY</a></li>
-					<li><a href="#">Business</a></li>
-					<li><a href="#">Tech</a></li>
-					<li><a href="#">Science</a></li>
-					<li><a href="#">Health</a></li>
-					<li><a href="#">Sports</a></li>
-					<li><a href="#">Education</a></li>
-					<li><a href="#">Obituaries</a></li>
-					<li><a href="#">Today's Paper</a></li>
-					<li><a href="#">Corrections</a></li>
+					<li><a href="#">Today's Opinion</a></li>
+					<li><a href="#">Op-Ed Columnists</a></li>
+					<li><a href="#">Editorials</a></li>
+					<li><a href="#">Contributing Writers</a></li>
+					<li><a href="#">Op-Ed Contributors</a></li>
+					<li><a href="#">Opinionator</a></li>
+					<li><a href="#">Letters</a></li>
+					<li><a href="#">Sunday Review</a></li>
+					<li><a href="#">Taking Note</a></li>
+					<li><a href="#">Room for Debate</a></li>
+					<li><a href="#">Public Editor</a></li>
+					<li><a href="#">Vido: Opinion</a></li>
 				</ul>
 			</div>
 
 			<div class="column">
 
-			<h3>NEWS</h3>
+			<h3>ARTS</h3>
 				<ul>
-					<li><a href="#">World</a></li>
-					<li><a href="#">U.S</a></li>
-					<li><a href="#">Politics</a></li>
-					<li><a href="#">NY</a></li>
-					<li><a href="#">Business</a></li>
-					<li><a href="#">Tech</a></li>
-					<li><a href="#">Science</a></li>
-					<li><a href="#">Health</a></li>
-					<li><a href="#">Sports</a></li>
-					<li><a href="#">Education</a></li>
-					<li><a href="#">Obituaries</a></li>
-					<li><a href="#">Today's Paper</a></li>
-					<li><a href="#">Corrections</a></li>
+					<li><a href="#">Today's Art</a></li>
+					<li><a href="#">Art & Design</a></li>
+					<li><a href="#">Books</a></li>
+					<li><a href="#">Dance</a></li>
+					<li><a href="#">Music</a></li>
+					<li><a href="#">N.Y.C. Events Guide</a></li>
+					<li><a href="#">Television</a></li>
+					<li><a href="#">Theater</a></li>
+					<li><a href="#">Video: Arts</a></li>
 				</ul>
 			</div>
 
 			<div class="column">
 
-			<h3>NEWS</h3>
+			<h3>LIVING</h3>
 				<ul>
-					<li><a href="#">World</a></li>
-					<li><a href="#">U.S</a></li>
-					<li><a href="#">Politics</a></li>
-					<li><a href="#">NY</a></li>
-					<li><a href="#">Business</a></li>
-					<li><a href="#">Tech</a></li>
-					<li><a href="#">Science</a></li>
-					<li><a href="#">Health</a></li>
-					<li><a href="#">Sports</a></li>
+					<li><a href="#">Automobiles</a></li>
+					<li><a href="#">Crossword</a></li>
+					<li><a href="#">Food</a></li>
 					<li><a href="#">Education</a></li>
-					<li><a href="#">Obituaries</a></li>
-					<li><a href="#">Today's Paper</a></li>
-					<li><a href="#">Corrections</a></li>
+					<li><a href="#">Fashion & Style</a></li>
+					<li><a href="#">Health</a></li>
+					<li><a href="#">Jobs</a></li>
+					<li><a href="#">Magazine</a></li>
+					<li><a href="#">N.Y.C. Events Guide</a></li>
+					<li><a href="#">Real Estate</a></li>
+					<li><a href="#">T Magazine</a></li>
+					<li><a href="#">Travel</a></li>
+					<li><a href="#">Weddings & Celebrations</a></li>
 				</ul>
 			</div>
 
 			<div class="column">
 
-			<h3>NEWS</h3>
+			<h3>LISTINGS & MORE</h3>
 				<ul>
-					<li><a href="#">World</a></li>
-					<li><a href="#">U.S</a></li>
-					<li><a href="#">Politics</a></li>
-					<li><a href="#">NY</a></li>
-					<li><a href="#">Business</a></li>
-					<li><a href="#">Tech</a></li>
-					<li><a href="#">Science</a></li>
-					<li><a href="#">Health</a></li>
-					<li><a href="#">Sports</a></li>
-					<li><a href="#">Education</a></li>
-					<li><a href="#">Obituaries</a></li>
-					<li><a href="#">Today's Paper</a></li>
+					<li><a href="#">Classifieds</a></li>
+					<li><a href="#">Tools & Service</a></li>
+					<li><a href="#">Times Topics</a></li>
+					<li><a href="#">Public Editor</a></li>
+					<li><a href="#">N.Y.C. Events Guide</a></li>
+					<li><a href="#">Blogs</a></li>
+					<li><a href="#">Mulitmedia</a></li>
+					<li><a href="#">Photography</a></li>
+					<li><a href="#">Video</a></li>
+					<li><a href="#">NYT Store</a></li>
+					<li><a href="#">Subscribe</a></li>
+					<li><a href="#">Manage My Account</a></li>
 					<li><a href="#">Corrections</a></li>
 				</ul>
 			</div>
 
-		</div><!-- end footer -->
+		</div>
+
+		<footer>
+
+			<p class="left">&copy; 2017 The New York Times Company | Contact Us | Work With Us | Advertise | Your Ad Choices | Privacy | Terms of Service | Terms of Sale</p>
+
+			<p class="footerpar">Site Map | Help | Site Feedback | Subscriptions</p>
+
+		</footer>
 
 	</div><!-- end container -->
-
 	</body>
 
 </html>
